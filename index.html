@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meme Trivia</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <div class="txt-center jumbotron">
+        <h1 class="display-3 txt-center">Meme Trivia!</h1>
+        <button class="but" id="start" onclick="begin()">Start!</button>
+        <div id="count"></div>
+    </div>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="bgimg d-1080">
+            <div id="lel" class="timer">Time Remaining:</div>
+            <div id="timer" class="timer"></div>
+            <div class="row">
+                <div id="q" class="question col-md-12"></div>
+                <div id="0" onclick="check(this)" class="answer col-md-10"></div>
+                <div id="1" onclick="check(this)" class="answer col-md-10"></div>
+                <div id="2" onclick="check(this)" class="answer col-md-10"></div>
+                <div id="3" onclick="check(this)" class="answer col-md-10"></div>
+            </div>
+        </div>
+    </div>
+    <div id="inter" class="container">
+        <div class="bgimg2 d-1080">
+        <div class="question txt-center" id="educate"></div>
+        <IMG id="imgplace" class="img-center" SRC="">
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="assets/js/game.js"></script>
+
+</html>
